@@ -16,7 +16,7 @@ bullet.velocityX = speed;
 }
 
 function draw() {
-  background(black); 
+  background ("black"); 
 
   function hasCollided (bullet,wall)  {
   bulletRightEdge = bullet.x + bullet.width;
